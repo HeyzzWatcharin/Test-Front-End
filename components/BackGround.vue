@@ -3,8 +3,9 @@
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     width="1920"
-    height="747.786"
-    viewBox="0 0 1920 747.786"
+    height="747.785"
+    viewBox="0 0 1920 747.785"
+    class="BackGround"
   >
     <defs>
       <linearGradient
@@ -16,6 +17,7 @@
         gradientUnits="objectBoundingBox"
       >
         <stop offset="0" stop-color="#fbd" />
+        <stop offset="0.157" stop-color="#ffc4e1" />
         <stop offset="1" stop-color="#fcf3f4" />
       </linearGradient>
     </defs>
@@ -28,3 +30,10 @@
     />
   </svg>
 </template>
+<style scoped>
+.BackGround{
+  position: absolute;
+  z-index: 0;
+}
+  
+</style>

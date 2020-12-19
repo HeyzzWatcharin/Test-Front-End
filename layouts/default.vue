@@ -4,6 +4,9 @@
     <div class="side-bar">
       <SideBar />
     </div>
+    <div class="Background">
+      <!-- <BackGround /> -->
+    </div>
     <nuxt class="screen"></nuxt>
   </div>
 </template>
@@ -14,13 +17,13 @@ export default {};
 
 <style scoped>
 .side-bar {
-  z-index: 1000;
-  position: fixed;
+  z-index: 100;
+  position: absolute;
   top: 120px;
-  left: 50px;
-  height: 100%;
+  left: 80px;
+  height: 90%;
   width: 250px;
-  background:linear-gradient(0deg,#FAE7EB,#FFFFFF);
+  background: linear-gradient(0deg, #fae7eb, #ffffff);
   transition: all 0.5s ease;
   overflow: hidden;
   border-radius: 30px;
