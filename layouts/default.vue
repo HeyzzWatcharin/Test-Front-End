@@ -1,62 +1,33 @@
 <template>
   <div>
-    <Nuxt />
+    <Navbar />
+    <div class="side-bar">
+      <SideBar />
+    </div>
+    <nuxt class="screen"></nuxt>
   </div>
 </template>
 
-<style>
-html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
+<script>
+export default {};
+</script>
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
+<style scoped>
+.side-bar {
+  z-index: 1000;
+  position: fixed;
+  top: 120px;
+  left: 50px;
+  height: 100%;
+  width: 250px;
+  background:linear-gradient(0deg,#FAE7EB,#FFFFFF);
+  transition: all 0.5s ease;
+  overflow: hidden;
+  border-radius: 30px;
 }
-
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+.screen {
+  padding-top: 10px !important;
+  transition: 0.5s;
+  background: linear-gradient(-90deg, #ffffff, #fae7eb);
 }
 </style>
