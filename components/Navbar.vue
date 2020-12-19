@@ -25,8 +25,8 @@
             <i class="fas fa-lg fa-bell mr-5" style="color:#7947B5;"></i>
             <div class="navbar-item has-dropdown">
               <a class="navbar-link">
-                <Profile class="ImageProfile" />
-                <span><h2 class="mr-1 ml-1">Linna list</h2></span>
+                <Profile class="ImageProfile mr-4" />
+                <span><h2 class="mr-2">Linna list</h2><p>Marketing</p></span>
               </a>
 
               <div class="navbar-dropdown">
@@ -53,6 +53,12 @@
 </template>
 
 <style scoped>
+h1 {
+  font-size: 16px;
+}
+p{
+  font-size: 12px;
+}
 .navbar {
   background: linear-gradient(#fcf3f4, #fcdceb);
 }

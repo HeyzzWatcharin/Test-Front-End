@@ -12,14 +12,20 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data(){
+    return {
+      check: true,
+    }
+  }
+};
 </script>
 
 <style scoped>
 .Background {
   background: linear-gradient(0deg, #fae7eb, #ffffff) !important;
   color: red;
-  fill: currentColor;
+  top:-35%
 
 }
 .side-bar {
