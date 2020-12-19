@@ -16,8 +16,8 @@
       </div>
     </div>
     <div class="column">
-      <div class="card ">
-        <div class="card-content">
+      <div class="card ColorCard">
+        <div class="card-content ">
           <div class="content has-text-centered CardPlus">
             <i class="fas fa-plus-circle fas fa-3x"></i>
           </div>
@@ -28,9 +28,11 @@
 </template>
 
 <style scoped>
+i:hover {
+  cursor: pointer;
+}
 .ColorCard {
-    border-color: #FBA7B5;
-    background-color: #eca1a6;
+  background-color: transparent;
 }
 .CardPlus {
   margin-top: 60%;
