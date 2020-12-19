@@ -21,8 +21,8 @@
       <div class="navbar-menu">
         <div class="navbar-end">
           <div class="navbar-item">
-            <i class="fas fa-lg fa-cog mr-5"></i>
-            <i class="fas fa-lg fa-bell mr-5"></i>
+            <i class="fas fa-lg fa-cog mr-5" style="color:#7947B5;"></i>
+            <i class="fas fa-lg fa-bell mr-5" style="color:#7947B5;"></i>
             <div class="navbar-item has-dropdown">
               <a class="navbar-link">
                 <Profile class="ImageProfile" />
@@ -54,7 +54,7 @@
 
 <style scoped>
 .navbar {
-  background: linear-gradient(#FCF3F4, #fcdceb);
+  background: linear-gradient(#fcf3f4, #fcdceb);
 }
 .logo {
   margin-left: 20%;

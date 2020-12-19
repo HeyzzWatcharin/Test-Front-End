@@ -4,8 +4,8 @@
     <div class="side-bar">
       <SideBar />
     </div>
-    <div class="Background">
-      <!-- <BackGround /> -->
+    <div>
+      <!-- <BackGround class="Background" /> -->
     </div>
     <nuxt class="screen"></nuxt>
   </div>
@@ -16,6 +16,12 @@ export default {};
 </script>
 
 <style scoped>
+.Background {
+  background: linear-gradient(0deg, #fae7eb, #ffffff) !important;
+  color: red;
+  fill: currentColor;
+
+}
 .side-bar {
   z-index: 100;
   position: absolute;

@@ -3,12 +3,16 @@
     <div class="card-content">
       <div class="content">
         <div class="columns">
-          <div class="column is-half description">
-            <p class="title is-3 ">Hi,<em> Linna Li</em></p>
-            <p class="subtitle is-5">Have a nice day at work.</p>
+          <div class="column is-half">
+            <div class=" description">
+              <p class="title is-3 ">Hi,<em> Linna Li</em></p>
+              <p class="subtitle is-5">Have a nice day at work.</p>
+            </div>
           </div>
           <div class="column">
-            <div><ImageCard class="ImageCard" /></div>
+            <div class="is-justify-content-flex-end">
+              <div><ImageCard class="ImageCard is-right" /></div>
+            </div>
           </div>
         </div>
       </div>
@@ -23,15 +27,15 @@
 }
 
 .description em {
-  color: #7947B5;
+  color: #7947b5;
 }
 .ImageCard {
   height: 180px;
   width: auto;
-  position: fixed;
-  z-index: 2;
-  margin-left: 2%;
-  top: 12%;
+  float: right;
+  position: relative;
+  z-index: 100;
+  top: -30px;
 }
 .card {
   width: 700px;

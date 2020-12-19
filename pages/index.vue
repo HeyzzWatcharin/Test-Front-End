@@ -1,7 +1,12 @@
 <template>
   <div>
     <div class="container">
-      <div><Card /></div>
+      <div>
+        <Card />
+        <br />
+        <SubContent class="mt-6" />
+      </div>
+      <div></div>
     </div>
   </div>
 </template>

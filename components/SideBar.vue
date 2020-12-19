@@ -53,7 +53,7 @@
 .Logo {
   height: 100px;
   width: auto;
-  margin-bottom: 40%;
+  margin-bottom: 30%;
   margin-top: 20%;
   margin-left: 30%;
 }
