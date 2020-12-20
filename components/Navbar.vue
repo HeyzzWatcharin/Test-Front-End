@@ -26,7 +26,10 @@
             <div class="navbar-item has-dropdown">
               <a class="navbar-link">
                 <Profile class="ImageProfile mr-4" />
-                <span><h2 class="mr-2">Linna list</h2><p>Marketing</p></span>
+                <span>
+                  <p class="mr-2 is-size-5"><b>Linna Li</b></p>
+                  <p class="is-size-6">Marketing <span class="dot"></span></p>
+                </span>
               </a>
 
               <div class="navbar-dropdown">
@@ -53,10 +56,17 @@
 </template>
 
 <style scoped>
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: rgb(81, 245, 6);
+  border-radius: 50%;
+  display: inline-block;
+}
 h1 {
   font-size: 16px;
 }
-p{
+p {
   font-size: 12px;
 }
 .navbar {

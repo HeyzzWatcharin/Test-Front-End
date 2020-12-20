@@ -65,6 +65,9 @@
   </div>
 </template>
 <style scoped>
+.is-2:hover{
+  cursor: pointer;
+}
 .rows {
   display: flex;
   flex-direction: column;

@@ -72,7 +72,7 @@ li i {
 }
 li p {
   font-size: 18px;
-  font-weight: bold;
+
   position: absolute;
   left: 40%;
   /* top: 30px; */

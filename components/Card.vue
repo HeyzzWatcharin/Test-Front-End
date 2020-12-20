@@ -20,6 +20,10 @@
   </div>
 </template>
 <style scoped>
+p {
+  font-family: p-text;
+  src: url("/static/font/Poppins-SemiBold.ttf");
+}
 .description {
   color: #000;
   margin-top: 2%;

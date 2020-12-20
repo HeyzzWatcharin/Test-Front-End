@@ -24,6 +24,7 @@
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
+  font-family: p-text;
   /*
   justify-content: center;
   align-items: center;
