@@ -5,15 +5,12 @@
         <Card />
         <br />
         <SubContent class="mt-6" />
+        <br />
+        <ThirthContent class="mb-6" />
       </div>
-      <div></div>
     </div>
   </div>
 </template>
-
-<script>
-export default {};
-</script>
 <style>
 .BackGround {
   z-index: 1;
