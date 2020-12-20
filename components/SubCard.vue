@@ -1,5 +1,6 @@
 <template>
-  <div class="columns">
+  <div>
+    <div class="columns">
     <div class="column">
       <div class="card">
         <div class="card-image">
@@ -24,6 +25,7 @@
         </div>
       </div>
     </div>
+  </div>
   </div>
 </template>
 

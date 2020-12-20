@@ -5,7 +5,7 @@
       <br />
       <div class="size">
         <div class="columns">
-          <div class="column is-4">
+          <div class="column is-5">
             <p style="font-size:16px">รายได้(Income)</p>
             <p><b style="font-size:21px">฿ 123,456.-</b></p>
           </div>
@@ -35,7 +35,8 @@
   border-radius: 0 30px 30px 30px;
 }
 .Th {
-  margin-left: 45%;
+  /* margin-left: 45%; */
+  width: 350px;
 }
 .size {
   width: 100%;
