@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>My Work</h1>
+    <h1 class="Text">My Work</h1>
     <div class="columns">
       <div class="column">
         <div class="card">
@@ -31,7 +31,7 @@
 </template>
 
 <style scoped>
-h1 {
+.Text {
   margin-left: 45%;
   font-size: 22px;
   font-weight: bold;
@@ -64,13 +64,13 @@ i:hover {
   .card {
     height: 250px;
   }
-  .CardPlus{
-    margin-top:50%;
+  .CardPlus {
+    margin-top: 50%;
   }
 }
 @media only screen and (max-width: 769px) {
-  h1{
-    margin-left:35%;
+  h1 {
+    margin-left: 35%;
   }
   .Figure {
     height: 120px;
@@ -79,28 +79,43 @@ i:hover {
   .card {
     height: 250px;
   }
-  .CardPlus{
-    margin-top:50%;
+  .CardPlus {
+    margin-top: 50%;
   }
 }
 
 @media only screen and (max-width: 426px) {
-  .h1{
-    margin-left:0%;
-  }
-  .Figure {
-    height: 120px;
-    width: 12px;
+  .Text {
+    margin-left: 33%;
   }
   .card {
     height: 250px;
     margin-left: 0%;
   }
-  .CardPlus{
-    margin-top:50%;
+  .CardPlus {
+    margin-top: 50%;
   }
-  .columns{
+  .columns {
     margin-left: 20%;
+  }
+}
+
+
+@media only screen and (max-width: 376px) {
+  .Text {
+    margin-left: 28%;
+  }
+  .columns {
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .Text {
+    margin-left: 20%;
+  }
+  .columns {
+    margin-left: 8%;
   }
 }
 </style>

@@ -43,6 +43,8 @@
   border-radius: 30px;
   margin-left: 45%;
   margin-top: 5%;
+  transition: all 0.5s ease;
+  overflow: hidden;
 }
 
 /* Mobile L */
@@ -78,7 +80,6 @@
     margin-left: 55%;
     height: 120px;
     width: 280px;
- 
   }
   .ImageCard {
     height: 120px;
