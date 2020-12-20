@@ -3,7 +3,7 @@
     <h1 class="Text">My Work</h1>
     <div class="columns">
       <div class="column" v-for="(A, i) in Test" :key="i">
-        <Card1 :Add="A.Detail" :Bill="A.Thai" />
+        <Card1 :Add="A.Detail" :Bill="A.SubDetail" />
       </div>
       <div class="column" v-if="MyData.length > 0">
         <div class="card ColorCard">
@@ -22,10 +22,11 @@ export default {
   data() {
     return {
       MyData: [
-        { Detail: "Income", Thai: "เพิ่มรายรับ" },
-        { Detail: "Expend", Thai: "เพิ่มรายจ่าย" }
+        { Detail: "Income", SubDetail: "เพิ่มรายรับ" },
+        { Detail: "So Cute", SubDetail: "น่ารักค้าบ" },
+        { Detail: "Expend", SubDetail: "เพิ่มรายจ่าย" }
       ],
-      Test: [{ Detail: "Add Bill", Thai: "เพิ่มบิล" }]
+      Test: [{ Detail: "Add Bill", SubDetail: "เพิ่มบิล" }]
     };
   },
   methods: {
