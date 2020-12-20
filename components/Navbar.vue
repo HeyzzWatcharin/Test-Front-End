@@ -46,7 +46,7 @@
                 <Profile class="ImageProfile mr-4" />
                 <span>
                   <p class="mr-2 is-size-5"><b>Linna Li</b></p>
-                  <p class="is-size-6">Marketing <span class="dot"></span></p>
+                  <p style=" font-family: p-light; font-size:12px">Marketing <span class="dot"></span></p>
                 </span>
               </a>
             </div>
