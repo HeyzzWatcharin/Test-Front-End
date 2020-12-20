@@ -78,4 +78,31 @@ li p {
   /* top: 30px; */
   color: #504e63;
 }
+@media only screen and (max-width: 1025px) {
+  li p {
+    font-size: 16px;
+  }
+  li i {
+    font-size: 22px;
+    padding-left: 25%;
+  }
+  .Logo {
+    height: 80px;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  li p {
+    font-size: 12px;
+  }
+  li i {
+    font-size: 18px;
+    padding-left: 15%;
+  }
+  .Logo {
+    height: 70px;
+    align-items: center;
+  }
+}
 </style>

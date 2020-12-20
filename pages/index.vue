@@ -6,29 +6,16 @@
         <br />
         <SubContent class="mt-6" />
         <br />
-        <div class="mb-2 columns" style="margin-left:45%">
-          <div class="column">
-            <ThirthContent />
-          </div>
-          <div class="column" style="margin-top:13%"><Fouth /></div>
-        </div>
+        <Total />
       </div>
     </div>
   </div>
 </template>
 <style>
-.BackGround {
-  z-index: 1;
-}
 .container {
-  margin: 0 auto;
   min-height: 100vh;
   display: flex;
-  font-family: p-text;
-  /*
-  justify-content: center;
-  align-items: center;
-  text-align: center; */
-  z-index: 2;
+}
+@media screen and (max-width: 1025px) {
 }
 </style>

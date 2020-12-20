@@ -40,6 +40,17 @@ export default {
   overflow: hidden;
   border-radius: 30px;
 }
+@media only screen and (max-width: 1025px) {
+  .side-bar {
+    left: 40px;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .side-bar {
+    display: none;
+  }
+}
 .screen {
   padding-top: 10px !important;
   transition: 0.5s;

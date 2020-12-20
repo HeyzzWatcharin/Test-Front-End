@@ -10,8 +10,8 @@
             </div>
           </div>
           <div class="column">
-            <div class="is-justify-content-flex-end">
-              <div><ImageCard class="ImageCard is-right" /></div>
+            <div>
+              <div><ImageCard class="ImageCard" /></div>
             </div>
           </div>
         </div>
@@ -20,10 +20,6 @@
   </div>
 </template>
 <style scoped>
-p {
-  font-family: p-text;
-  src: url("/static/font/Poppins-SemiBold.ttf");
-}
 .description {
   color: #000;
   margin-top: 2%;
@@ -47,5 +43,67 @@ p {
   border-radius: 30px;
   margin-left: 45%;
   margin-top: 5%;
+}
+
+/* Mobile L */
+@media only screen and (max-width: 1025px) {
+  .title {
+    font-size: 32px;
+  }
+  .subtitle {
+    font-size: 18px;
+  }
+  .card {
+    width: 480px;
+    height: auto;
+    margin-left: 40%;
+  }
+  .ImageCard {
+    height: 150px;
+    top: 20px;
+  }
+  .description {
+    font-size: 24px;
+  }
+}
+/* Mobile M */
+@media only screen and (max-width: 769px) {
+  .title {
+    font-size: 22px;
+  }
+  .subtitle {
+    font-size: 18px;
+  }
+  .card {
+    margin-left: 55%;
+    height: 120px;
+    width: 280px;
+ 
+  }
+  .ImageCard {
+    height: 120px;
+    top: 80px;
+    display: none;
+  }
+  .description {
+    font-size: 16px;
+  }
+}
+/* Mobile M */
+@media only screen and (max-width: 426px) {
+  .card {
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .card {
+    margin-left: 10%;
+  }
+}
+@media only screen and (max-width: 321px) {
+  .card {
+    margin-left: 3%;
+  }
 }
 </style>
