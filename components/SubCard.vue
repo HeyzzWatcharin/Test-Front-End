@@ -1,35 +1,41 @@
 <template>
   <div>
+    <h1>My Work</h1>
     <div class="columns">
-    <div class="column">
-      <div class="card">
-        <div class="card-image">
-          <figure class="image has-text-centered mt-4">
-            <FigureCard />
-          </figure>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image has-text-centered mt-4">
+              <FigureCard class="Figure" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content has-text-centered">
+              <p class="title is-4">Add Bill</p>
+              <p class="subtitle is-6">เพิ่มบิล</p>
+            </div>
+          </div>
         </div>
-        <div class="card-content">
-          <div class="content has-text-centered">
-            <p class="title is-4">Add Bill</p>
-            <p class="subtitle is-6">เพิ่มบิล</p>
+      </div>
+      <div class="column">
+        <div class="card ColorCard">
+          <div class="card-content ">
+            <div class="content has-text-centered CardPlus">
+              <i class="fas fa-plus-circle fas fa-3x"></i>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="column">
-      <div class="card ColorCard">
-        <div class="card-content ">
-          <div class="content has-text-centered CardPlus">
-            <i class="fas fa-plus-circle fas fa-3x"></i>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   </div>
 </template>
 
 <style scoped>
+h1 {
+  margin-left: 45%;
+  font-size: 22px;
+  font-weight: bold;
+}
 i:hover {
   cursor: pointer;
 }
@@ -49,5 +55,52 @@ i:hover {
   border-radius: 30px;
   margin-left: 45%;
   margin-top: 5%;
+}
+@media only screen and (max-width: 1025px) {
+  .Figure {
+    height: 130px;
+    width: 130px;
+  }
+  .card {
+    height: 250px;
+  }
+  .CardPlus{
+    margin-top:50%;
+  }
+}
+@media only screen and (max-width: 769px) {
+  h1{
+    margin-left:35%;
+  }
+  .Figure {
+    height: 120px;
+    width: 120px;
+  }
+  .card {
+    height: 250px;
+  }
+  .CardPlus{
+    margin-top:50%;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .h1{
+    margin-left:0%;
+  }
+  .Figure {
+    height: 120px;
+    width: 12px;
+  }
+  .card {
+    height: 250px;
+    margin-left: 0%;
+  }
+  .CardPlus{
+    margin-top:50%;
+  }
+  .columns{
+    margin-left: 20%;
+  }
 }
 </style>

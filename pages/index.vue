@@ -4,7 +4,7 @@
       <div>
         <Card />
         <br />
-        <SubContent class="mt-6" />
+        <SubCard class="mt-6" />
         <br />
         <Total />
       </div>
