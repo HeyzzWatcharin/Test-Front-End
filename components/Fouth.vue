@@ -26,15 +26,15 @@
           <div class="row is-full">
             <div class="columns has-text-centered mt-2">
               <div class="column">
-                <p class="mt-2">Sun</p>
+                <p class="mt-2" style="font-family: p-light;">Sun</p>
                 <p>12</p>
               </div>
               <div class="column">
-                <p class="mt-2">Mon</p>
+                <p class="mt-2" style="font-family: p-light;">Mon</p>
                 <p>13</p>
               </div>
               <div class="column">
-                <p class="mt-2">Tue</p>
+                <p class="mt-2" style="font-family: p-light;">Tue</p>
                 <p>14</p>
               </div>
               <div
@@ -42,21 +42,21 @@
                 style="  background-color: #9e43b8;
   color: white;border-radius: 20px;"
               >
-                <p class="mt-2">Wed</p>
+                <p class="mt-2" style="font-family: p-light;">Wed</p>
                 <p>15</p>
               </div>
               <div class="column">
-                <p class="mt-2">Thu</p>
+                <p class="mt-2" style="font-family: p-light;">Thu</p>
                 <p>16</p>
               </div>
               <div class="column">
-                <p class="mt-2">Fri</p>
+                <p class="mt-2" style="font-family: p-light;">Fri</p>
                 <p>17</p>
               </div>
               <div class="column ">
-                      <p class="mt-2">Sun</p>
-                      <p>12</p>
-                  </div>
+                <p class="mt-2" style="font-family: p-light;">Sun</p>
+                <p>12</p>
+              </div>
             </div>
           </div>
         </div>
@@ -65,7 +65,7 @@
   </div>
 </template>
 <style scoped>
-.is-2:hover{
+.is-2:hover {
   cursor: pointer;
 }
 .rows {

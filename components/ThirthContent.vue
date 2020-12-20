@@ -1,7 +1,9 @@
 <template>
   <div class="Th">
     <div>
-      <p><b class="mr-5 is-size-4">Total</b>15 January, 2021</p>
+      <p>
+        <b class="mr-5 is-size-4">Total</b>15 January, 2021
+      </p>
       <br />
       <div class="size">
         <div class="columns">
@@ -23,14 +25,22 @@
     <div class="card">
       <div class="card-content">
         <div class="content has-text-centered">
-          <p class="is-size-5 subtitle">รายได้สุทธิ( Net balance )</p>
-          <p class="is-size-3 title" style="color:#7947B5">฿ 123,456.-</p>
+          <p class="is-size-5 subtitle">ยอดคงเหลือสุทธิ( Net balance )</p>
+          <p class="is-size-3 title" style="color:#7947B5">
+            <b>฿ 123,456.-</b>
+          </p>
         </div>
       </div>
     </div>
   </div>
 </template>
 <style scoped>
+p {
+  font-family: dx-text;
+}
+p b {
+  font-family: p-bold;
+}
 .card {
   border-radius: 0 30px 30px 30px;
 }

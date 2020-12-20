@@ -21,11 +21,16 @@
   src: url("/fonts/Poppins-SemiBold.ttf");
 }
 
+@font-face {
+  font-family: dx-text;
+  src: url("/static/fonts/db-helvethaica-x-bd-ext-it-v32.ttf")
+}
+
 body,
 html {
   font-family: p-text;
 }
 
 p {
-  font-family: p-bold;
+  font-family: p-text;
 }

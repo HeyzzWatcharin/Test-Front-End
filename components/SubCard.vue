@@ -22,8 +22,8 @@ export default {
   data() {
     return {
       MyData: [
-        { Detail: "In come", Thai: "เพิ่มรายรับ" },
-        { Detail: "In come2", Thai: "เพิ่มรายรับ2" }
+        { Detail: "Income", Thai: "เพิ่มรายรับ" },
+        { Detail: "Expend", Thai: "เพิ่มรายจ่าย" }
       ],
       Test: [{ Detail: "Add Bill", Thai: "เพิ่มบิล" }]
     };
