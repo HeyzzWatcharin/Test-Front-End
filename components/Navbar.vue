@@ -1,6 +1,6 @@
 <template>
   <div class="BackGround">
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav  class="navbar"  role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="#">
           <Logo class="logo" />
@@ -23,7 +23,7 @@
           <div class="navbar-item">
             <i class="fas fa-lg fa-cog mr-5" style="color:#7947B5;"></i>
             <i class="fas fa-lg fa-bell mr-5" style="color:#7947B5;"></i>
-            <div class="navbar-item has-dropdown">
+            <div class="navbar-item has-dropdown" @click="$emit('Show')" >
               <a class="navbar-link">
                 <Profile class="ImageProfile mr-4" />
                 <span>
@@ -31,22 +31,6 @@
                   <p class="is-size-6">Marketing <span class="dot"></span></p>
                 </span>
               </a>
-
-              <div class="navbar-dropdown">
-                <a class="navbar-item">
-                  Overview
-                </a>
-                <a class="navbar-item">
-                  Elements
-                </a>
-                <a class="navbar-item">
-                  Components
-                </a>
-                <hr class="navbar-divider" />
-                <div class="navbar-item">
-                  Version 0.6.2
-                </div>
-              </div>
             </div>
           </div>
         </div>

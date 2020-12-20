@@ -1,24 +1,24 @@
-/* @font-face {
+@font-face {
   font-family: p-light;
-  src: url("/static/font/Poppins-Light.ttf");
+  src: url("/fonts/Poppins-Light.ttf");
 }
 @font-face {
   font-family: p-medium;
-  src: url("/static/font/Poppins-Medium.ttf");
+  src: url("/fonts/Poppins-Medium.ttf");
 }
 @font-face {
   font-family: p-thin;
-  src: url("/static/font/Poppins-Thin.ttf");
+  src: url("/fonts/Poppins-Thin.ttf");
 }
 
 @font-face {
   font-family: p-bold;
-  src: url("/static/font/Poppins-Bold.ttf");
+  src: url("/fonts/Poppins-Bold.ttf");
 }
 
 @font-face {
   font-family: p-text;
-  src: url("/static/font/Poppins-SemiBold.ttf");
+  src: url("/fonts/Poppins-SemiBold.ttf");
 }
 
 body,
@@ -28,4 +28,4 @@ html {
 
 p {
   font-family: p-bold;
-} */
+}

@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Navbar />
-    <div class="side-bar">
+    <Navbar v-on:Show="ShowSide" />
+    <div class="side-bar"  v-if="check">
       <SideBar />
     </div>
     <div>
@@ -13,9 +13,19 @@
 
 <script>
 export default {
-  data(){
+  data() {
     return {
-      check: true,
+      check: true
+    };
+  },
+  methods:{
+    ShowSide(){
+      // alert();
+      if(this.check){
+        this.check=false;
+      }else{
+        this.check=true;
+      }
     }
   }
 };
@@ -25,8 +35,7 @@ export default {
 .Background {
   background: linear-gradient(0deg, #fae7eb, #ffffff) !important;
   color: red;
-  top:-35%
-
+  top: -35%;
 }
 .side-bar {
   z-index: 100;
@@ -36,7 +45,7 @@ export default {
   height: 90%;
   width: 250px;
   background: linear-gradient(0deg, #fae7eb, #ffffff);
-  transition: all 0.5s ease;
+  transition: 0.8s;
   overflow: hidden;
   border-radius: 30px;
 }

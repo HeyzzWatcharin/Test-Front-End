@@ -2,26 +2,14 @@
   <div>
     <h1 class="Text">My Work</h1>
     <div class="columns">
-      <div class="column">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image has-text-centered mt-4">
-              <FigureCard class="Figure" />
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="content has-text-centered">
-              <p class="title is-4">Add Bill</p>
-              <p class="subtitle is-6">เพิ่มบิล</p>
-            </div>
-          </div>
-        </div>
+      <div class="column" v-for="(A, i) in Test" :key="i">
+        <Card1 :Add="A.Detail" :Bill="A.Thai" />
       </div>
-      <div class="column">
+      <div class="column" v-if="MyData.length > 0">
         <div class="card ColorCard">
           <div class="card-content ">
             <div class="content has-text-centered CardPlus">
-              <i class="fas fa-plus-circle fas fa-3x"></i>
+              <i class="fas fa-plus-circle fas fa-3x" @click="Fetch"></i>
             </div>
           </div>
         </div>
@@ -29,7 +17,29 @@
     </div>
   </div>
 </template>
-
+<script>
+export default {
+  data() {
+    return {
+      MyData: [
+        { Detail: "In come", Thai: "เพิ่มรายรับ" },
+        { Detail: "In come2", Thai: "เพิ่มรายรับ2" }
+      ],
+      Test: [{ Detail: "Add Bill", Thai: "เพิ่มบิล" }]
+    };
+  },
+  methods: {
+    Fetch() {
+      this.MyData.reverse();
+      if (this.MyData.length > 0) {
+        const x = this.MyData.pop();
+        this.Test.push(x);
+        console.log(x);
+      }
+    }
+  }
+};
+</script>
 <style scoped>
 .Text {
   margin-left: 45%;
@@ -99,7 +109,6 @@ i:hover {
     margin-left: 20%;
   }
 }
-
 
 @media only screen and (max-width: 376px) {
   .Text {
